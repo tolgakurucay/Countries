@@ -5,6 +5,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
         <variable
+
             name="country"
             type="com.tolgakurucay.kotlincountries.model.Country" />
 
