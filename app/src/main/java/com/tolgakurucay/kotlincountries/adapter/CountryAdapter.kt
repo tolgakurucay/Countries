@@ -1,5 +1,6 @@
 package com.tolgakurucay.kotlincountries.adapter
 
+import android.content.SharedPreferences
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.RecyclerView
 import com.tolgakurucay.kotlincountries.model.Country
@@ -30,6 +31,7 @@ class CountryAdapter(val countryList:ArrayList<Country>):RecyclerView.Adapter<Co
         val view=DataBindingUtil.inflate<RecyclerViewRowBinding>(inflater,R.layout.recycler_view_row,parent,false)
         return CountryViewHolder(view)
     }
+
 
     override fun onBindViewHolder(holder: CountryViewHolder, position: Int) {
 
